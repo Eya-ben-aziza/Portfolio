@@ -1,11 +1,25 @@
 import React from 'react'
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <>
-     <h1>hello from navbar</h1>
+     <header>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="/about">About</a></li>
+                        <hr class="fineline"></hr>
+                        <li><a href="/experiences">experiences</a></li>
+                        <hr class="fineline"></hr>
+                        <li><a href="/projects">projects</a></li>
+                        <hr class="fineline"></hr>
+                        <li><a href="/contacts">contacts</a></li>
+                    </ul>
+                              
+                </nav>
+     
+        </header>
     </>
   )
 }
 
-export default navbar
+export default Navbar
