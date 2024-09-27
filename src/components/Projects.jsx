@@ -11,7 +11,11 @@ const Projects = () => {
   useEffect(() => {
     const fetchProjects= async () => {
       try {
-        const res= await fetch('https://api.github.com/users/Eya-ben-aziza/repos');
+        const res= await fetch('https://api.github.com/users/Eya-ben-aziza/repos', {
+          headers: {
+            Authorization: `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`
+          }
+        });
         console.log(res);
         const data= await res.json();
         console.log(data);
@@ -45,7 +49,6 @@ const Projects = () => {
                   <p>{project.id}</p>
                 </div>
                 )
-                
 
               }
 
