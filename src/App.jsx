@@ -3,6 +3,7 @@ import About from './components/about';
 import MainLayout from './layouts/MainLayout'
 import Experiences from './components/Experiences';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 
 import {
@@ -19,6 +20,7 @@ const router= createBrowserRouter (
       <Route path='/about' element={<About/>} />
       <Route path='/experiences' element={<Experiences/>} />
       <Route path='/projects' element={<Projects/>} />
+      <Route path='/contact' element={<Contact/>}/>
     </Route>
       
     

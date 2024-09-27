@@ -4,15 +4,15 @@ const Navbar = () => {
   return (
     <>
      <header>
-                <nav class="navbar">
+                <nav className="navbar">
                     <ul>
                         <li><a href="/about">About</a></li>
-                        <hr class="fineline"></hr>
+                        <hr className="fineline"></hr>
                         <li><a href="/experiences">experiences</a></li>
-                        <hr class="fineline"></hr>
+                        <hr className="fineline"></hr>
                         <li><a href="/projects">projects</a></li>
-                        <hr class="fineline"></hr>
-                        <li><a href="/contacts">contacts</a></li>
+                        <hr className="fineline"></hr>
+                        <li><a href="/contact">contacts</a></li>
                     </ul>
                               
                 </nav>
