@@ -36,7 +36,7 @@ const Home = () => {
   <div className="relative rounded-lg p-[2px] bg-gradient-to-r from-[#eb739d] to-[#7b5eff]">
     <div className="bg-gradient-to-r from-[#0f051d] to-[#301a68] rounded-lg border-2 border-transparent">
       {/* Window Controls */}
-      <div className="flex items-center px-4 py-2 border-b border-[#7df9ff]/30">
+      <div className="flex items-center px-4 py-2 border-b border-[#7b5eff]/30">
         <div className="flex space-x-2">
           <div className="w-3 h-3 rounded-full bg-red-500"/>
           <div className="w-3 h-3 rounded-full bg-yellow-500"/>
