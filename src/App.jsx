@@ -1,9 +1,4 @@
-import React from 'react'
-import About from './components/about';
-import MainLayout from './layouts/MainLayout'
-import Experiences from './components/Experiences';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+import Portfolio from './pages/Portfolio';
 
 
 import {
@@ -16,16 +11,7 @@ import {
 
 const router= createBrowserRouter (
   createRoutesFromElements (
-    <Route path='/' element={<MainLayout/>}>
-      <Route path='/about' element={<About/>} />
-      <Route path='/experiences' element={<Experiences/>} />
-      <Route path='/projects' element={<Projects/>} />
-      <Route path='/contact' element={<Contact/>}/>
-    </Route>
-      
-    
-    
-
+      <Route path='/portfolio' element={<Portfolio/>}/>
   )
  
 );
