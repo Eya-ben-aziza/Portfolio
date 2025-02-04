@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar'
 import Home from '../components/Home'
+import About from '../components/About'
 
 const Portfolio = () => {
   return (
@@ -7,6 +8,7 @@ const Portfolio = () => {
       <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-20"></div>
       <Navbar />
       <Home />
+      <About />
     </div>
   )
 }

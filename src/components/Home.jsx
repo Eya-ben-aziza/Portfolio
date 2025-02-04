@@ -32,39 +32,39 @@ const Home = () => {
         </div>
 
         {/* CLI Window */}
-<div className="flex-1 max-w-2xl z-10">
-  <div className="relative rounded-lg p-[2px] bg-gradient-to-r from-[#eb739d] to-[#7b5eff]">
-    <div className="bg-gradient-to-r from-[#0f051d] to-[#301a68] rounded-lg border-2 border-transparent">
-      {/* Window Controls */}
-      <div className="flex items-center px-4 py-2 border-b border-[#7b5eff]/30">
-        <div className="flex space-x-2">
-          <div className="w-3 h-3 rounded-full bg-red-500"/>
-          <div className="w-3 h-3 rounded-full bg-yellow-500"/>
-          <div className="w-3 h-3 rounded-full bg-green-500"/>
+        <div className="flex-1 max-w-2xl z-10">
+          <div className="relative rounded-lg p-[2px] bg-gradient-to-r from-[#eb739d] to-[#7b5eff]">
+            <div className="bg-gradient-to-r from-[#0f051d] to-[#301a68] rounded-lg border-2 border-transparent">
+              {/* Window Controls */}
+              <div className="flex items-center px-4 py-2 border-b border-[#7b5eff]/30">
+                <div className="flex space-x-2">
+                  <div className="w-3 h-3 rounded-full bg-red-500"/>
+                  <div className="w-3 h-3 rounded-full bg-yellow-500"/>
+                  <div className="w-3 h-3 rounded-full bg-green-500"/>
+                </div>
+              </div>
+              
+              {/* Code Content */}
+              <div className="p-6 font-mono">
+                <span className="text-[#7df9ff]">const</span> coder = {'{'}
+                <div className="ml-4">
+                  <p><span className="text-[#ff61f6]">name</span>: <span className="text-[#7df9ff]">'Eya Ben Aziza'</span>,</p>
+                  <p><span className="text-[#ff61f6]">skills</span>: [{
+                    ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'NestJS', 'Tailwind', 'Postgres', 'Node.js']
+                      .map((skill, i) => (
+                        <span key={i} className="text-[#7df9ff]">'{skill}'{i < 8 ? ', ' : ''}</span>
+                      ))
+                  }],</p>
+                  <p><span className="text-[#ff61f6]">hardWorker</span>: <span className="text-[#7df9ff]">true</span>,</p>
+                  <p><span className="text-[#ff61f6]">quickLearner</span>: <span className="text-[#7df9ff]">true</span>,</p>
+                  <p><span className="text-[#ff61f6]">problemSolver</span>: <span className="text-[#7df9ff]">true</span>,</p>
+                  <p><span className="text-[#ff61f6]">hireable</span>: <span className="text-[#ff61f6] font-bold">Highly Recommended</span></p>
+                </div>
+                {'}'}
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      
-      {/* Code Content */}
-      <div className="p-6 font-mono">
-        <span className="text-[#7df9ff]">const</span> coder = {'{'}
-        <div className="ml-4">
-          <p><span className="text-[#ff61f6]">name</span>: <span className="text-[#7df9ff]">'Eya Ben Aziza'</span>,</p>
-          <p><span className="text-[#ff61f6]">skills</span>: [{
-            ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'NestJS', 'Tailwind', 'Postgres', 'Node.js']
-              .map((skill, i) => (
-                <span key={i} className="text-[#7df9ff]">'{skill}'{i < 8 ? ', ' : ''}</span>
-              ))
-          }],</p>
-          <p><span className="text-[#ff61f6]">hardWorker</span>: <span className="text-[#7df9ff]">true</span>,</p>
-          <p><span className="text-[#ff61f6]">quickLearner</span>: <span className="text-[#7df9ff]">true</span>,</p>
-          <p><span className="text-[#ff61f6]">problemSolver</span>: <span className="text-[#7df9ff]">true</span>,</p>
-          <p><span className="text-[#ff61f6]">hireable</span>: <span className="text-[#ff61f6] font-bold">Highly Recommended</span></p>
-        </div>
-        {'}'}
-      </div>
-    </div>
-  </div>
-</div>
       </section>
     </div>
   )
