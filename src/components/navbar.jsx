@@ -6,6 +6,7 @@ const Navbar = () => {
         <div className="space-x-8 hidden md:flex">
           <a href="#home" className="hover:text-[#7df9ff] transition-colors">Home</a>
           <a href="#about" className="hover:text-[#7df9ff] transition-colors">About</a>
+          <a href="#experience" className="hover:text-[#7df9ff] transition-colors">Experience</a>
           <a href="#skills" className="hover:text-[#7df9ff] transition-colors">Skills</a>
           <a href="#education" className="hover:text-[#7df9ff] transition-colors">Education</a>
           <a href="#projects" className="hover:text-[#7df9ff] transition-colors">Projects</a>
