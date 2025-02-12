@@ -46,11 +46,11 @@ const Home = () => {
               
               {/* Code Content */}
               <div className="p-6 font-mono">
-                <span className="text-[#7df9ff]">const</span> coder = {'{'}
+                <span className="text-[#7df9ff]">const</span> developer = {'{'}
                 <div className="ml-4">
                   <p><span className="text-[#ff61f6]">name</span>: <span className="text-[#7df9ff]">'Eya Ben Aziza'</span>,</p>
                   <p><span className="text-[#ff61f6]">skills</span>: [{
-                    ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'NestJS', 'Tailwind', 'Postgres', 'Node.js']
+                    ['HTML', 'CSS', 'Tailwind','JavaScript', 'React', 'Node.js', 'TypeScript', 'NestJS', 'Postgres' , 'RESTful API', 'Git', 'CI/CD']
                       .map((skill, i) => (
                         <span key={i} className="text-[#7df9ff]">'{skill}'{i < 8 ? ', ' : ''}</span>
                       ))
@@ -58,7 +58,7 @@ const Home = () => {
                   <p><span className="text-[#ff61f6]">hardWorker</span>: <span className="text-[#7df9ff]">true</span>,</p>
                   <p><span className="text-[#ff61f6]">quickLearner</span>: <span className="text-[#7df9ff]">true</span>,</p>
                   <p><span className="text-[#ff61f6]">problemSolver</span>: <span className="text-[#7df9ff]">true</span>,</p>
-                  <p><span className="text-[#ff61f6]">hireable</span>: <span className="text-[#ff61f6] font-bold">Highly Recommended</span></p>
+                  <p><span className="text-[#ff61f6]">hireable</span>: <span className="text-[#7df9ff]">"Recommended"</span></p>
                 </div>
                 {'}'}
               </div>
