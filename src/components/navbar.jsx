@@ -12,10 +12,10 @@ const Navbar = () => {
       <div className="space-x-0.1 hidden md:flex">
         <button onClick={() => scrollToSection('home')} className="hover:text-[#7df9ff] transition-colors bg-transparent">Home</button>
         <button onClick={() => scrollToSection('about')} className="hover:text-[#7df9ff] transition-colors bg-transparent">About</button>
-        <button onClick={() => scrollToSection('experience')} className="hover:text-[#7df9ff] transition-colors bg-transparent">Experience</button>
-        <button onClick={() => scrollToSection('skills')} className="hover:text-[#7df9ff] transition-colors bg-transparent">Skills</button>
         <button onClick={() => scrollToSection('education')} className="hover:text-[#7df9ff] transition-colors bg-transparent">Education</button>
+        <button onClick={() => scrollToSection('skills')} className="hover:text-[#7df9ff] transition-colors bg-transparent">Skills</button>
         <button onClick={() => scrollToSection('projects')} className="hover:text-[#7df9ff] transition-colors bg-transparent">Projects</button>
+        <button onClick={() => scrollToSection('experience')} className="hover:text-[#7df9ff] transition-colors bg-transparent">Experience</button>
       </div>
     </nav>
   )
