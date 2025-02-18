@@ -34,7 +34,7 @@ const Home = () => {
                 Contact Me
               </button>
            
-            <a href="../../Resume_Portfolio.pdf" download="Eya_Ben_Aziza_Resume.pdf">
+            <a href="/Portfolio/Resume_Portfolio.pdf" download="Eya_Ben_Aziza_Resume.pdf">
               <button className="bg-[#1b0a33] border-2 border-[#7df9ff] hover:bg-[#7df9ff]/10 px-8 py-3 rounded-full font-semibold transition whitespace-nowrap justify-center flex items-center">
                 Get Resume
               </button>
