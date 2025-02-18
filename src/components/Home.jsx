@@ -2,6 +2,13 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 
 const Home = () => {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div>
       <section id="home" className="pt-32 px-6 md:px-16 min-h-screen flex flex-col md:flex-row items-center justify-between">
@@ -22,11 +29,11 @@ const Home = () => {
           </div>
 
           <div className="flex space-x-4">
-            <a href="#contact">
-              <button className="bg-gradient-to-r from-[#ff5f96] to-[#7b5eff] hover:bg-blend-darken px-8 py-3 rounded-full font-semibold transition whitespace-nowrap justify-center flex items-center">
+            
+              <button onClick={() => scrollToSection('contact')} className="bg-gradient-to-r from-[#ff5f96] to-[#7b5eff] hover:bg-blend-darken px-8 py-3 rounded-full font-semibold transition whitespace-nowrap justify-center flex items-center">
                 Contact Me
               </button>
-            </a>
+           
             <a href="../../Resume_Portfolio.pdf" download="Eya_Ben_Aziza_Resume.pdf">
               <button className="bg-[#1b0a33] border-2 border-[#7df9ff] hover:bg-[#7df9ff]/10 px-8 py-3 rounded-full font-semibold transition whitespace-nowrap justify-center flex items-center">
                 Get Resume
