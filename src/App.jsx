@@ -1,25 +1,14 @@
 import Portfolio from './pages/Portfolio';
-
-
-import {
-  Route,
-  RouterProvider,
-  createBrowserRouter,
-  createRoutesFromElements,
-} from 'react-router-dom';
-
-
-const router= createBrowserRouter (
-  createRoutesFromElements (
-      <Route path='/portfolio' element={<Portfolio/>}/>
-  )
- 
-);
+import { Route, Routes } from 'react-router-dom';
 
 const App = () => {
   return (
-    <RouterProvider router={router}/>
-  )
+    <Routes>
+      <Route path="/" element={<Portfolio />} />
+      <Route path="/Portfolio" element={<Portfolio />} />
+      <Route path="/Portfolio/" element={<Portfolio />} />
+    </Routes>
+  );
 };
 
-export default App
+export default App;
