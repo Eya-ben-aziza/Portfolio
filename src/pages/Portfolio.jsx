@@ -16,10 +16,10 @@ const Portfolio = () => {
       <Navbar />
       <Home />
       <About />
-      <Experience />  
+      <Education />
       <Skills />
       <Projects />
-      <Education />
+      <Experience />
       <Contact />
     </div>
   )
