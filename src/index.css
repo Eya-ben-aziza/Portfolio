@@ -136,4 +136,6 @@ button {
     }
   }
 
-  
+  p {
+    user-select: text;
+  }
