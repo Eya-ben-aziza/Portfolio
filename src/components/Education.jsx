@@ -1,5 +1,5 @@
 import { CommandLineIcon } from '@heroicons/react/24/solid'
-
+import graduate from '../assets/graduate.avif'
 const Education = () => {
   return (
     <div>
@@ -16,7 +16,7 @@ const Education = () => {
               <div className="absolute inset-0 animate-float flex justify-center items-center">
                 <div className="w-1/2 h-full bg-gradient-to-tr from-[#c33dbc] to-[#05197d] rounded-xl transform rotate-x-[20deg] rotate-y-[-20deg] overflow-hidden">
                   <img 
-                    src="/holographic-terminal.png" 
+                    src= {graduate} 
                     alt="Tech Visualization"
                     className="w-full h-full object-cover mix-blend-screen"
                   />
@@ -36,8 +36,9 @@ const Education = () => {
                     <CommandLineIcon className="h-6 w-6" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-white">Full Stack Developer</h3>
-                    <p className="text-white mt-2">Tech Corp Solutions</p>
+                    <h3 className="text-2xl font-semibold text-white"> Engineering Diploma in Instrumentation and Intelligent 
+                    Systems</h3>
+                    <p className="text-white mt-2"> National Institute of Applied Sciences and Technology-INSAT</p>
                   </div>
                 </div>
               </div>
@@ -52,27 +53,12 @@ const Education = () => {
                     <CommandLineIcon className="h-6 w-6" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-white">Frontend Engineer</h3>
-                    <p className="text-white mt-2">Digital Future Inc.</p>
+                    <h3 className="text-2xl font-semibold text-white"> Baccalaureate Diploma in Mathematics</h3>
+                    <p className="text-white mt-2"> Pioneer School of Nabeul</p>
                   </div>
                 </div>
               </div>
 
-              {/* Experience Item 3 */}
-              <div className="relative p-6 rounded-xl bg-[#1b1036]/80 border-2 border-[#7df9ff]/10 hover:border-transparent transition-all duration-300 group">
-                <div className="absolute inset-0 overflow-hidden rounded-xl">
-                  <div className="absolute w-full h-full bg-[conic-gradient(from_var(--x),#ff61f6_0%,#7df9ff_50%,#ff61f6_100%)] opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
-                </div>
-                <div className="flex gap-4 items-start">
-                  <div className="text-[#a72da1] text-2xl p-3 bg-[#0f051d] rounded-lg">
-                    <CommandLineIcon className="h-6 w-6" />
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-bold text-white">DevOps Specialist</h3>
-                    <p className="text-white mt-2">Cloud Nexus</p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </section>
