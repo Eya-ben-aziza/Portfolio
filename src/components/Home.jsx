@@ -13,21 +13,25 @@ const Home = () => {
           </h1>
           
           <div className="flex space-x-4">
-            <a href="#" className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition">
+            <a href="https://github.com/Eya-ben-aziza?tab=repositories" target="_blank" className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition">
               <FaGithub className="h-8 w-8 text-white" />
             </a>
-            <a href="#" className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition">
+            <a href="https://www.linkedin.com/in/eya-ben-aziza-014306349/" target="_blank" className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition">
               <FaLinkedin className="h-8 w-8 text-white" />
             </a>
           </div>
 
           <div className="flex space-x-4">
-            <button className="bg-gradient-to-r from-[#ff5f96] to-[#7b5eff] hover:bg-blend-darken px-8 py-3 rounded-full font-semibold transition whitespace-nowrap justify-center flex items-center">
-              Contact Me
-            </button>
-            <button className="bg-[#1b0a33] border-2 border-[#7df9ff] hover:bg-[#7df9ff]/10 px-8 py-3 rounded-full font-semibold transition whitespace-nowrap justify-center flex items-center">
-              Get Resume
-            </button>
+            <a href="#contact">
+              <button className="bg-gradient-to-r from-[#ff5f96] to-[#7b5eff] hover:bg-blend-darken px-8 py-3 rounded-full font-semibold transition whitespace-nowrap justify-center flex items-center">
+                Contact Me
+              </button>
+            </a>
+            <a href="../../Resume_Portfolio.pdf" download="Eya_Ben_Aziza_Resume.pdf">
+              <button className="bg-[#1b0a33] border-2 border-[#7df9ff] hover:bg-[#7df9ff]/10 px-8 py-3 rounded-full font-semibold transition whitespace-nowrap justify-center flex items-center">
+                Get Resume
+              </button>
+            </a>
           </div>
         </div>
 
@@ -50,9 +54,9 @@ const Home = () => {
                 <div className="ml-4">
                   <p><span className="text-[#ff61f6]">name</span>: <span className="text-[#7df9ff]">'Eya Ben Aziza'</span>,</p>
                   <p><span className="text-[#ff61f6]">skills</span>: [{
-                    ['HTML', 'CSS', 'Tailwind','JavaScript', 'React', 'Node.js', 'TypeScript', 'NestJS', 'Postgres' , 'RESTful API', 'Git', 'CI/CD']
+                    ['HTML', 'CSS', 'Tailwind','JavaScript', 'React', 'Node', 'TypeScript', 'NestJS', 'Postgres' , 'RESTful API', 'Git', 'CI/CD']
                       .map((skill, i) => (
-                        <span key={i} className="text-[#7df9ff]">'{skill}'{i < 8 ? ', ' : ''}</span>
+                        <span key={i} className="text-[#7df9ff]">'{skill}'{i < 11 ? ', ' : ''}</span>
                       ))
                   }],</p>
                   <p><span className="text-[#ff61f6]">hardWorker</span>: <span className="text-[#7df9ff]">true</span>,</p>
@@ -60,7 +64,7 @@ const Home = () => {
                   <p><span className="text-[#ff61f6]">problemSolver</span>: <span className="text-[#7df9ff]">true</span>,</p>
                   <p><span className="text-[#ff61f6]">hireable</span>: <span className="text-[#7df9ff]">"Recommended"</span></p>
                 </div>
-                {'}'}
+                {'};'}
               </div>
             </div>
           </div>
